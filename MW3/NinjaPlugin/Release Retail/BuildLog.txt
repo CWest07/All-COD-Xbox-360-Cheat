@@ -1,0 +1,25 @@
+﻿  Generating code
+  Finished generating code
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\MW3\NinjaPlugin\Release Retail\MW3.ENGINE.xex
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\MW3\NinjaPlugin\Release Retail\MW3.ENGINE.xex is devkit unencrypted binary.
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\MW3\NinjaPlugin\Release Retail\MW3.ENGINE.xex
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\MW3\NinjaPlugin\Release Retail\MW3.ENGINE.xex is devkit encrypted compressed.
+  Read 262144 bytes from file!
+  
+  cryptStrings: Browsing for strings... 
+  Encrypted 0 strings
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\MW3\NinjaPlugin\Release Retail\MW3.ENGINE.xex_base
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\MW3\NinjaPlugin\Release Retail\MW3.ENGINE.xex_base is devkit unencrypted binary.
+  Dumping .text

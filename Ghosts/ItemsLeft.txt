@@ -1,0 +1,22 @@
+- Main -
+* Show Ping
+* Jugg Class
+
+- Ragebot -
+* Target Shields
+
+- Legitbot -
+* Fix Reaction Delay
+* Implement Triggerbot
+* Target Shields
+
+- Spinbot -
+* Funny Spinbots
+
+- Drawing -
+* Draw Killstreaks (gamers bone killstreak ESP)
+* Fix Custom Radar X/Y from screen adjustments
+
+
+- Settings -
+* Fix Log IP's on devkit

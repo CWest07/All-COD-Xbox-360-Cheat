@@ -1,0 +1,12 @@
+- Main -
+* Change Team
+* Steal GT's
+* Rainbow GT
+* Field of View
+
+
+- Drawing -
+* Fix Spinning "NiNJA Engine v1.0" Text
+* Draw Killstreaks (including dogs!)
+* Draw Custom Radar
+* Cartoon Mode (possible on BO2?)

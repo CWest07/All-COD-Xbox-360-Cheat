@@ -1,0 +1,21 @@
+﻿  360D3D.cpp
+  BlopsMenu.cpp
+  AW.cpp
+AW.cpp(2034): warning C4309: '=' : truncation of constant value
+  Globals.cpp
+  HvPeekPoke.cpp
+  launch.cpp
+  NiNJA_Plugin.cpp
+  stdafx.cpp
+  TitleSpecificHooks.cpp
+  Utilities.cpp
+  XBLSMsgr.cpp
+  Generating code
+  Finished generating code
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\AW\NinjaPlugin\Release Retail\AW.ENGINE.xex_base
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\AW\NinjaPlugin\Release Retail\AW.ENGINE.xex_base is devkit unencrypted binary.
+  Dumping .text

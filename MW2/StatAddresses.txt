@@ -1,0 +1,16 @@
+Stat Entry - 0x8319E5BC
++ 0x2818 - Prestige
++ 0x2810 - Exp
++ 0x2820 - Score
++ 0x2824 - Kills
++ 0x282C - Deaths
++ 0x2834 - Assits
++ 0x2838 - Headshots
++ 0x2828 - Killstreak
++ 0x2858 - Wins
++ 0x285C - Losses
++ 0x2860 - Ties
++ 0x2864 - Win Streak
++ 0x2844 - Time Played Axis
++ 0x2848 - Time Played Allies
++ 0x284C - Time Played Spectators

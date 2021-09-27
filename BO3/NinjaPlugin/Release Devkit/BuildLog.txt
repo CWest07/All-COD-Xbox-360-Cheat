@@ -1,0 +1,11 @@
+﻿  BO3.cpp
+     Creating library G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\BO3\NinjaPlugin\Release Devkit\NiNJA_BO3.lib and object G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\BO3\NinjaPlugin\Release Devkit\NiNJA_BO3.exp
+  Generating code
+  Finished generating code
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\BO3\NinjaPlugin\Release Devkit\AW.xex_base
+  
+  G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\BO3\NinjaPlugin\Release Devkit\AW.xex_base is devkit unencrypted binary.
+  Dumping .text

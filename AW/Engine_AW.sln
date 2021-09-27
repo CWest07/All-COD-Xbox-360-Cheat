@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NiNJA_BO2", "NinjaPlugin\NinjaPlugin.vcxproj", "{7F2100A9-31EC-4175-AF50-4C67504C07C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Retail|Xbox 360 = Debug Retail|Xbox 360
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release Devkit|Xbox 360 = Release Devkit|Xbox 360
+		Release Retail|Xbox 360 = Release Retail|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Debug Retail|Xbox 360.ActiveCfg = Debug Retail|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Debug Retail|Xbox 360.Build.0 = Debug Retail|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Debug Retail|Xbox 360.Deploy.0 = Debug Retail|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Debug|Xbox 360.Deploy.0 = Debug|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Release Devkit|Xbox 360.ActiveCfg = Release Devkit|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Release Devkit|Xbox 360.Build.0 = Release Devkit|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Release Devkit|Xbox 360.Deploy.0 = Release Devkit|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Release Retail|Xbox 360.ActiveCfg = Release Retail|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Release Retail|Xbox 360.Build.0 = Release Retail|Xbox 360
+		{7F2100A9-31EC-4175-AF50-4C67504C07C6}.Release Retail|Xbox 360.Deploy.0 = Release Retail|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

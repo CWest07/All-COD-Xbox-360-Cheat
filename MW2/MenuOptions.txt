@@ -1,0 +1,123 @@
+-- NiNJA Engine v1.0 --
+// COD 4, WaW, MW2, BO1, MW3, BO2, Ghosts, AW, BO3
+// MW2, MW3, BO2, Ghosts, BO1, AW, BO3, WaW, COD 4
+
+// NiNJA Engine v2.0 should consist of Battlefield 3 & 4, Destiny, CS:GO, and Halo Reach offhost menus
+
+
+- Main -
+Radar
+No Recoil
+No Sway
+Change Team: (available teams here)
+Change Class: (display a class number here)
+Steal GT's  (Disables Rainbow GT, Sets GT randomly to a client in the game, few seconds later, another name)
+Rainbow GT  (Disables Steal GT's, Rainbows clients real GT)
+Spoof GT    (Show the keyboard allowing them to type in a GT ) // Needs to work pre-game and in-game
+Show Host  (Draw the host name somewhere on screen)
+Show Ping  (MW2 based option, possible on other cods?)
+Reload Cancel  (Does a reload cancel to avoid reloading animation / delays)
+Hear All Players
+Never Host  (Spoofs download speed to avoid ever getting host)
+Pro Mod  (Sets FOV to 90)
+Fake Lag 
+End Game
+Leave Game  (Best to get out of stuck host migrations, etc)
+
+- Ragebot -
+Enable Ragebot (When Ragebot is enabled, automatically disable Legitbot)
+Ragebot Type: (Silent, Normal)
+Ragebot Logic: (Distance, Threat, Smart) // Threat aimbot will prioritize players with sub/light machine guns // Smart aimbot will prioritize players based on their score, primary/secondary weapon and if they are looking in our direction
+Aim Bone: (List of aim bones) // We should add a "Auto" bone that hits the best bone
+No Spread  (If No Spread enabled, disable Auto Aim automatically)
+No Flinch
+Auto Wall
+Auto Shoot
+Auto Aim  (If Auto Aim enabled, disable No Spread automatically)
+Rapid Fire
+Ignore Shields
+Preferred Settings (Enables No Spread, Autowall, Auto Shoot, Anti-Aim spinbot mode, and Threat Logic ||| Disables Auto Aim, Rapid Fire)
+
+- Legitbot -
+Enable Legitbot (When Legitbot is enabled, automatically disable Ragebot, and spinbot, but allow for spinbot to be re-enabled)
+Legitbot Logic:  (Distance, Threat, Smart) // Threat aimbot will prioritize players with sub/light machine guns // Smart aimbot will prioritize players based on their score, primary/secondary weapon and if they are looking in our direction
+Aim Bone: (List of aim bones) // We should add a "Auto" bone that hits the best bone
+Auto Shoot
+Auto Aim
+Reaction Delay: (a delay in which to begin to aim at selected client)
+FOV Size:
+Draw FOV Box  (Draws the actual box of which the aimbot looks for a client in)
+Smooth Scale:
+Triggerbot
+Rapid Fire
+Ignore Shields
+Preferred Settings (Set FOV size / Smooth Scale / Aim Delay to legit ||| Disables Auto Shoot)
+
+- Spinbot -
+Enable Spinbot
+X Spin Direction: (Left/Right)
+X Spin Speed: (Custom)
+Y Spin Direction: (Up/Down)
+Z Spin Direction: (Left/Right)
+Z Spin Speed: (Custom)
+Funny Spinbots: (List of our funny spinbots, Default "Off") // When enabled, disables Anti-Aim X/Y/, and Custom spinbot
+X Anti-Aim Spinbot: (List of our X anit-aim spinbots, Default "Off") // When enabled, disables Custom / Funny spinbot
+Y Anti-Aim Spinbot: (List of our Y anit-aim spinbots, Deafult "Off") // When enabled, disables Custom / Funny spinbot
+Preferred Settings  (Enables our best anti-aim spinbot)
+
+- Drawing -
+Draw Enemies   (If we should draw enemies or not)
+Draw Friendly  (If we should draw friendlys or not)
+ESP Box Type: (3D, 2D, 2D Filled, Corners, Pyramid)
+Draw Name     (We need to make sure we disable the games overhead ESP name / rank so this is clean) (Name needs to be clean, size based on distance from client and width/height of text)
+Draw Weapon   // We should find a way to alert the user of a more threatening player based on weapon/amount of kills
+Draw Bones    (Bones will change color based on friendly/enemy/visible/wallbangable/whitelisted/prioritized)
+Draw Explosives (Grenades, C4's, Claymores, Grenade launcher bullets, etc)
+Draw Snaplines: (Center, and Bottom ||| Friendlys if enabled on Top by default) // Snaplines to whitelisted/prioritized players should be a different color
+Directional Arrows  (These will point to the direction of some one)
+Draw Crosshair
+Crosshair Type: (X or +) // Maybe Circle and Square?
+Draw Custom Radar  (If player is firing or being targeted, use a different color)
+Draw Dropped Items  (Scavenger Packs, Weapons, etc) // Can we draw these items on the 2D custom radar as well?
+Enemy Visible Text  (Tell us when a enemy is visible, OR when we are visible by a enemy) // If whitelisted, we don't care if they are looking at us
+Proximity Warning  (Tell us when a enemy is within our proximity) // Should we allow a custom range? // If whitelisted, we don't care if they are close // If 2D radar, draw proxomity on map
+Wallhack
+Cartoon Mode  (This is probably a MW2 only option)
+
+- Clients - 
+// "Empty" if no client connected
+// Add a red or green "[NE]" infront of the players name for "NiNJA Engine" if we determine they are using NiNJA Engine
+// Draw prioritized players name with a different color
+// Draw whitelisted players with a green / friendly color
+Prioritize Player  (Fire at target when visible/wallbangable, distance doesn't matter) // Draw Headshot icon over players head when prioritized
+Whitelist Player  (Client is completely ignored)
+Invert Player Team  (Invert the clients team, so when people change teams offhost, our aimbot will work)
+Player has Anti-Aim   (Let us know the client has Anti-Aim so we can take further precautions towards this client)
+Players IP address (We will not draw IP addresses for users on NiNJA)
+Players Machine ID (We will not draw machine id's for users on NiNJA)
+Players XUID
+
+
+- Settings -
+Move Menu
+Disable Menu Sounds (Scrolling / Toggling sounds)
+Change Open Buttons (Change the Open/Close from LT + LDPAD to another combination) // Maybe we can give them some pre-set combinations?
+Disable Menu Instructions  (This is the "Press LT + LDPAD to Open/Close Menu" text) // Allow this so people don't complain they can't record
+Disable NiNJA Engine Text  (Disables "NiNJA Engine v1.0" text) // Allow this so people don't complain they can't record
+Disable Item Descriptions  (Disables the custom box we draw that explains what each option does)
+Disable Main Menu Music (Maybe im not the only one who hates this)
+Prestige Disco  (Randomly change between prestiges pre-game)
+Prestige: (0 to highest possible +1 for those people who like null prestige)
+Level: (0 to highest possible)
+Unlock All (Should have a confirm button)
+Set Legit Stats (If prestige is not 0 in the menu, generate the stats based off the selected prestige)
+// Should we have a scroll bar option?
+
+
+/* - Notes - */
+// Threat Level for each client that gets appended a value based on weapon/attachment, blacklisted, aiming at us, aiming down sights, shield as secondary, prone/crounching/standing and distance
+// This will give us the ability to kill the most threatening player 1st easily
+// Unban lots of select NiNJA users for launch of NiNJA Engine
+
+
+

@@ -1,0 +1,45 @@
+﻿  BO1.cpp
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo1\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo1\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo1\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo1\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo1\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+BO1.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(183): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(212): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(240): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(268): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(919): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(1105): warning C4018: '<=' : signed/unsigned mismatch
+BO1.cpp(2455): warning C4800: 'BYTE' : forcing value to bool 'true' or 'false' (performance warning)
+BO1.cpp(3048): warning C4102: 'skip' : unreferenced label
+BO1.cpp(3166): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(3732): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(3876): warning C4018: '<' : signed/unsigned mismatch
+BO1.cpp(4484): warning C4018: '<' : signed/unsigned mismatch
+  Generating code
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo1\ninjaplugin\bo1.cpp(2135): warning C4715: 'GetWeaponIcon' : not all control paths return a value
+  Finished generating code
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\BO1\NinjaPlugin\Release Retail\BO1.ENGINE.xex
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\BO1\NinjaPlugin\Release Retail\BO1.ENGINE.xex is devkit unencrypted binary.
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\BO1\NinjaPlugin\Release Retail\BO1.ENGINE.xex
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\BO1\NinjaPlugin\Release Retail\BO1.ENGINE.xex is devkit encrypted compressed.
+  Read 233472 bytes from file!
+  
+  cryptStrings: Browsing for strings... 
+  Encrypted 0 strings
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\BO1\NinjaPlugin\Release Retail\BO1.ENGINE.xex_base
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\BO1\NinjaPlugin\Release Retail\BO1.ENGINE.xex_base is devkit unencrypted binary.
+  Dumping .text

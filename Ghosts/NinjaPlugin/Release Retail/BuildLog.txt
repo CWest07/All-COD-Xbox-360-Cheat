@@ -1,0 +1,132 @@
+﻿  360D3D.cpp
+  BlopsMenu.cpp
+  Detour.cpp
+  GeoLocationParser.cpp
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+  Ghosts.cpp
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+Ghosts.cpp(140): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(208): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(236): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(896): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(1065): warning C4018: '<=' : signed/unsigned mismatch
+Ghosts.cpp(1081): warning C4018: '<=' : signed/unsigned mismatch
+Ghosts.cpp(2997): warning C4102: 'skip' : unreferenced label
+Ghosts.cpp(3089): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(3562): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(3708): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(4060): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(4168): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(4330): warning C4018: '<' : signed/unsigned mismatch
+Ghosts.cpp(4456): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+  Globals.cpp
+  HttpRequest.cpp
+  HvPeekPoke.cpp
+  launch.cpp
+  MemoryManager.cpp
+  Menu.cpp
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+Menu.cpp(273): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(274): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(275): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(276): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(277): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(278): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(279): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(280): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(281): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(282): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(284): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(288): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(292): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(293): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(294): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(295): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(296): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(297): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(298): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(299): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(302): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(305): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(306): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(309): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(311): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(312): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(313): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(314): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(317): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(325): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(328): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(329): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(331): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(332): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(333): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(334): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(336): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(337): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(339): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(340): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(341): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(342): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(343): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(346): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(347): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(348): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(349): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(350): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(351): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(352): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  NiNJA_Plugin.cpp
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\ghosts\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+NiNJA_Plugin.cpp(199): warning C4018: '<' : signed/unsigned mismatch
+NiNJA_Plugin.cpp(223): warning C4018: '<' : signed/unsigned mismatch
+NiNJA_Plugin.cpp(238): warning C4102: 'unload' : unreferenced label
+  SecureStrings.cpp
+SecureStrings.cpp(59): warning C4172: returning address of local variable or temporary
+  stdafx.cpp
+  TitleSpecificHooks.cpp
+  Utilities.cpp
+  XBLSMsgr.cpp
+  Generating code
+  Finished generating code
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\Ghosts\NinjaPlugin\Release Retail\GHOSTS.ENGINE.xex
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\Ghosts\NinjaPlugin\Release Retail\GHOSTS.ENGINE.xex is devkit unencrypted binary.
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\Ghosts\NinjaPlugin\Release Retail\GHOSTS.ENGINE.xex
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\Ghosts\NinjaPlugin\Release Retail\GHOSTS.ENGINE.xex is devkit encrypted compressed.
+  Read 233472 bytes from file!
+  
+  cryptStrings: Browsing for strings... 
+  Encrypted 0 strings
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+  Creating and writing output xex file...
+  Successfully wrote altered xex to E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\Ghosts\NinjaPlugin\Release Retail\GHOSTS.ENGINE.xex_base
+  
+  E:\Xbox\Xbox 360\Projects\NiNJA\NiNJA Engine [SVN]\Ghosts\NinjaPlugin\Release Retail\GHOSTS.ENGINE.xex_base is devkit unencrypted binary.
+  Dumping .text

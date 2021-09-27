@@ -1,0 +1,20 @@
+﻿  BO2.cpp
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo2\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo2\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo2\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo2\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+e:\xbox\xbox 360\projects\ninja\ninja engine [svn]\bo2\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+BO2.cpp(225): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(293): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(321): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(349): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(1006): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(1189): warning C4018: '<=' : signed/unsigned mismatch
+BO2.cpp(2581): warning C4101: 'pointlessScreenOrigin' : unreferenced local variable
+BO2.cpp(2596): warning C4101: 'pointlessScreenOrigin' : unreferenced local variable
+BO2.cpp(3133): warning C4102: 'skip' : unreferenced label
+BO2.cpp(3980): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(4619): warning C4018: '<' : signed/unsigned mismatch
+BO2.cpp(4720): warning C4018: '<' : signed/unsigned mismatch
+Utilities.obj : fatal error LNK1000: unknown error at 0046D314; consult documentation for technical support options

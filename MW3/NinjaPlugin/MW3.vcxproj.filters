@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{8e084f2e-61ef-4178-a43e-06a17aa549f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1b0b7947-ff39-4a80-9875-859b010c6a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Util">
+      <UniqueIdentifier>{faa60829-088c-4d98-b93f-313cc1b44b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Lib">
+      <UniqueIdentifier>{2ef496ae-3c5c-4a8d-9ca8-69646095f2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Lib\HVPP">
+      <UniqueIdentifier>{2c9786f6-a3f4-4414-86a3-ec7df82e1a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Lib\DLaunch">
+      <UniqueIdentifier>{719139ee-8316-41e1-ad2b-14fba1806ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Plugin">
+      <UniqueIdentifier>{fd0ca1bf-bb63-4b2e-b1f2-735c217b89ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Lib\NiNJA">
+      <UniqueIdentifier>{edf61113-3ad5-4eb0-b3d2-2a7f50339034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib">
+      <UniqueIdentifier>{66be22fb-8495-4d2e-930c-d282ca99572a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Plugin">
+      <UniqueIdentifier>{d63e9865-c3ec-464c-98fb-bf157e111ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\HVPP">
+      <UniqueIdentifier>{0c8afa76-3b59-476c-9e03-ff4c6092bc3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\DLaunch">
+      <UniqueIdentifier>{4e216ef3-c014-4198-9a49-ae750e254a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\NiNJA">
+      <UniqueIdentifier>{a7ea662d-a514-4de6-b82b-e9360b9620a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util">
+      <UniqueIdentifier>{28f836e6-e087-4a9f-9229-fb414b781f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Plugin\Hooks">
+      <UniqueIdentifier>{e661e88a-1287-40ce-a577-cd4b9e6f1f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Plugin\Hooks">
+      <UniqueIdentifier>{f1c0b6d2-5d57-4cb0-8ec9-91bb22b82ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Lib\XConfig">
+      <UniqueIdentifier>{94a51d77-2a9d-4e99-9ffe-f3f9183fbfc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Lib\Draw">
+      <UniqueIdentifier>{3ea99de9-0b2c-4951-8156-e4eacc111a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Lib\COD">
+      <UniqueIdentifier>{a63176ed-ff56-48cc-9190-db1e472a37b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\COD">
+      <UniqueIdentifier>{0c218513-54bc-4ce3-aab1-e0d6a190c3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lib\Draw">
+      <UniqueIdentifier>{9852357c-7c05-4219-ad67-07e4cd1ebb26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>include\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="HvPeekPoke.h">
+      <Filter>include\Lib\HVPP</Filter>
+    </ClInclude>
+    <ClInclude Include="launch.h">
+      <Filter>include\Lib\DLaunch</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchData.h">
+      <Filter>include\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Detour.h">
+      <Filter>include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSpecificHooks.h">
+      <Filter>include\Plugin\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="XConfig.h">
+      <Filter>include\Lib\XConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="XBLSMsgr.h">
+      <Filter>include\Lib\NiNJA</Filter>
+    </ClInclude>
+    <ClInclude Include="MailMan.h">
+      <Filter>include\Lib\NiNJA</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BlopsMenu.h">
+      <Filter>include\Lib\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="COD.h">
+      <Filter>include\Lib\COD</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>include\Lib\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Mw3.h">
+      <Filter>include\Lib\COD</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="SecureStrings.h" />
+    <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="GeoLocationParser.h" />
+    <ClInclude Include="HttpRequest.h" />
+    <ClInclude Include="rapidjson\error\en.h" />
+    <ClInclude Include="rapidjson\error\error.h" />
+    <ClInclude Include="rapidjson\internal\biginteger.h" />
+    <ClInclude Include="rapidjson\internal\diyfp.h" />
+    <ClInclude Include="rapidjson\internal\dtoa.h" />
+    <ClInclude Include="rapidjson\internal\ieee754.h" />
+    <ClInclude Include="rapidjson\internal\itoa.h" />
+    <ClInclude Include="rapidjson\internal\meta.h" />
+    <ClInclude Include="rapidjson\internal\pow10.h" />
+    <ClInclude Include="rapidjson\internal\regex.h" />
+    <ClInclude Include="rapidjson\internal\stack.h" />
+    <ClInclude Include="rapidjson\internal\strfunc.h" />
+    <ClInclude Include="rapidjson\internal\strtod.h" />
+    <ClInclude Include="rapidjson\internal\swap.h" />
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="rapidjson\allocators.h" />
+    <ClInclude Include="rapidjson\document.h" />
+    <ClInclude Include="rapidjson\encodedstream.h" />
+    <ClInclude Include="rapidjson\encodings.h" />
+    <ClInclude Include="rapidjson\memorybuffer.h" />
+    <ClInclude Include="rapidjson\memorystream.h" />
+    <ClInclude Include="rapidjson\rapidjson.h" />
+    <ClInclude Include="rapidjson\reader.h" />
+    <ClInclude Include="rapidjson\stream.h" />
+    <ClInclude Include="rapidjson\stringbuffer.h" />
+    <ClInclude Include="rapidjson\writer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HvPeekPoke.cpp">
+      <Filter>src\Lib\HVPP</Filter>
+    </ClCompile>
+    <ClCompile Include="launch.cpp">
+      <Filter>src\Lib\DLaunch</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSpecificHooks.cpp">
+      <Filter>src\Plugin\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="XBLSMsgr.cpp">
+      <Filter>src\Lib\NiNJA</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="NiNJA_Plugin.cpp">
+      <Filter>src\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="BlopsMenu.cpp">
+      <Filter>src\Lib\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="360D3D.cpp">
+      <Filter>src\Lib\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Mw3.cpp">
+      <Filter>src\Lib\COD</Filter>
+    </ClCompile>
+    <ClCompile Include="Detour.cpp" />
+    <ClCompile Include="MemoryManager.cpp" />
+    <ClCompile Include="SecureStrings.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="GeoLocationParser.cpp" />
+    <ClCompile Include="HttpRequest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plugin.xml" />
+    <None Include="ReadMe.txt" />
+    <None Include="plugin.def" />
+  </ItemGroup>
+</Project>

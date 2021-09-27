@@ -1,0 +1,116 @@
+﻿  360D3D.cpp
+  BlopsMenu.cpp
+  Detour.cpp
+  GeoLocationParser.cpp
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+  HttpRequest.cpp
+  MemoryManager.cpp
+  Menu.cpp
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+Menu.cpp(206): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(207): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(208): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(209): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(210): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(211): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(212): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(213): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(214): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(215): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(217): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(221): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(225): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(226): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(227): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(228): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(229): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(230): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(231): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(232): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(235): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(237): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(238): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(241): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(243): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(244): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(245): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(246): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(249): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(257): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(260): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(261): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(263): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(264): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(265): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(266): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(268): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(269): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(271): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(272): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(273): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(274): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(275): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(278): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(279): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(280): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(281): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(282): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(283): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Menu.cpp(284): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  Mw2.cpp
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+Mw2.cpp(140): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(208): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(236): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(935): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(1292): warning C4018: '<=' : signed/unsigned mismatch
+Mw2.cpp(3030): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(3493): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(3614): warning C4018: '<' : signed/unsigned mismatch
+Mw2.cpp(4236): warning C4018: '<' : signed/unsigned mismatch
+  Globals.cpp
+  HvPeekPoke.cpp
+  launch.cpp
+  NiNJA_Plugin.cpp
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1008): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1014): warning C4003: not enough actual parameters for macro 'min'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1015): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1032): warning C4003: not enough actual parameters for macro 'max'
+g:\xbox\sources\ninja\ninja engine [svn]\mw2\ninjaplugin\rapidjson\document.h(1033): warning C4003: not enough actual parameters for macro 'max'
+NiNJA_Plugin.cpp(254): warning C4018: '<' : signed/unsigned mismatch
+NiNJA_Plugin.cpp(278): warning C4018: '<' : signed/unsigned mismatch
+NiNJA_Plugin.cpp(293): warning C4102: 'unload' : unreferenced label
+  SecureStrings.cpp
+SecureStrings.cpp(59): warning C4172: returning address of local variable or temporary
+  stdafx.cpp
+  TitleSpecificHooks.cpp
+  Utilities.cpp
+  XBLSMsgr.cpp
+     Creating library G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\MW2\NinjaPlugin\Release Devkit\NiNJA_MW2.lib and object G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\MW2\NinjaPlugin\Release Devkit\NiNJA_MW2.exp
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpReceiveResponse
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpCloseHandle
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpStartup
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpDoWork
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpOpenRequest
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpConnect
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpReadData
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpQueryHeaders
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpSendRequest
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpOpen
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpSetStatusCallback
+HttpRequest.obj : error LNK2001: unresolved external symbol XHttpShutdown
+G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\MW2\NinjaPlugin\Release Devkit\NiNJA_MW2.dll : fatal error LNK1120: 12 unresolved externals

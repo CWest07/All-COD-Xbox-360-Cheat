@@ -1,0 +1,41 @@
+﻿  XBLSMsgr.cpp
+  Utilities.cpp
+  TitleSpecificHooks.cpp
+  stdafx.cpp
+  NiNJA_Plugin.cpp
+  MemoryManager.cpp
+  launch.cpp
+  HvPeekPoke.cpp
+  Globals.cpp
+  Detour.cpp
+  COD4.cpp
+COD4.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(748): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(921): warning C4018: '<=' : signed/unsigned mismatch
+COD4.cpp(1343): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(2812): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(3265): warning C4018: '<' : signed/unsigned mismatch
+COD4.cpp(3781): warning C4018: '<' : signed/unsigned mismatch
+  BlopsMenu.cpp
+  360D3D.cpp
+  Generating Code...
+  XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
+  Reading and parsing input xex file...
+    removed media limit
+    removed region limit
+    removed bounding path limit
+    removed bounding device id limit
+    removed console id restriction
+    removed date restriction
+    removed keyvault privilege restriction
+    removed signed keyvault only limit
+    removed library version limit
+    removed required revocation check
+    removed media id limit
+  Creating and writing output xex file...
+  Successfully wrote altered xex to G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\COD4\NinjaPlugin\Debug Retail\Mw2.xex
+  
+  G:\Xbox\Sources\NiNJA\NiNJA Engine [SVN]\COD4\NinjaPlugin\Debug Retail\Mw2.xex is retail encrypted compressed.

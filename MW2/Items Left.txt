@@ -1,0 +1,30 @@
+- Ragebot -
+Ragebot Logic: Threat // v1.2
+
+
+- Legitbot -
+Legitbot Logic: Threat // v1.2
+*Triggerbot
+
+
+- Spinbot -
+Add More Spinbot Modes
+
+
+- Drawing -
+* Team Check Explosives *
+
+
+- Settings -
+Move Menu // v1.2 ??
+Menu Open: // v1.2
+Disable Item Descriptions // v1.2
+Unlock All // v1.2
+Legit Stats // v1.2
+
+
+**Invert Team Check
+
+
+- Colors -
+RGB Sliders for ESP Colors

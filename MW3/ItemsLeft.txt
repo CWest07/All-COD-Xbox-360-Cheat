@@ -1,0 +1,14 @@
+- Main -
+* Allow To Change To Any 10 Classes With Jugg
+
+
+- Ragebot -
+* Improve Accuracy
+
+
+- Drawing -
+* Draw Killstreaks
+
+
+- Settings -
+* Freeze All Consoles

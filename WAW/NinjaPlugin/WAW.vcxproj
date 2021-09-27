@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Retail|Xbox 360">
+      <Configuration>Debug Retail</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Xbox 360">
+      <Configuration>Debug</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Devkit|Xbox 360">
+      <Configuration>Release Devkit</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Retail|Xbox 360">
+      <Configuration>Release Retail</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeoLocationParser.h" />
+    <ClInclude Include="HttpRequest.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="rapidjson\allocators.h" />
+    <ClInclude Include="rapidjson\document.h" />
+    <ClInclude Include="rapidjson\encodedstream.h" />
+    <ClInclude Include="rapidjson\encodings.h" />
+    <ClInclude Include="rapidjson\error\en.h" />
+    <ClInclude Include="rapidjson\error\error.h" />
+    <ClInclude Include="rapidjson\internal\biginteger.h" />
+    <ClInclude Include="rapidjson\internal\diyfp.h" />
+    <ClInclude Include="rapidjson\internal\dtoa.h" />
+    <ClInclude Include="rapidjson\internal\ieee754.h" />
+    <ClInclude Include="rapidjson\internal\itoa.h" />
+    <ClInclude Include="rapidjson\internal\meta.h" />
+    <ClInclude Include="rapidjson\internal\pow10.h" />
+    <ClInclude Include="rapidjson\internal\regex.h" />
+    <ClInclude Include="rapidjson\internal\stack.h" />
+    <ClInclude Include="rapidjson\internal\strfunc.h" />
+    <ClInclude Include="rapidjson\internal\strtod.h" />
+    <ClInclude Include="rapidjson\internal\swap.h" />
+    <ClInclude Include="rapidjson\memorybuffer.h" />
+    <ClInclude Include="rapidjson\memorystream.h" />
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="rapidjson\rapidjson.h" />
+    <ClInclude Include="rapidjson\reader.h" />
+    <ClInclude Include="rapidjson\stream.h" />
+    <ClInclude Include="rapidjson\stringbuffer.h" />
+    <ClInclude Include="rapidjson\writer.h" />
+    <ClInclude Include="SecureStrings.h" />
+    <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="WAW.h" />
+    <ClInclude Include="COD.h" />
+    <ClInclude Include="Detour.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="HvPeekPoke.h" />
+    <ClInclude Include="launch.h" />
+    <ClInclude Include="MailMan.h" />
+    <ClInclude Include="PatchData.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TitleSpecificHooks.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="XBLSMsgr.h" />
+    <ClInclude Include="XConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="360D3D.cpp" />
+    <ClCompile Include="BlopsMenu.cpp" />
+    <ClCompile Include="Detour.cpp" />
+    <ClCompile Include="GeoLocationParser.cpp" />
+    <ClCompile Include="HttpRequest.cpp" />
+    <ClCompile Include="MemoryManager.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="SecureStrings.cpp" />
+    <ClCompile Include="WAW.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="HvPeekPoke.cpp" />
+    <ClCompile Include="launch.cpp" />
+    <ClCompile Include="NiNJA_Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TitleSpecificHooks.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="XBLSMsgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plugin.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="plugin.def" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B70B9C7E-E0A6-4103-B8A7-3A0477811001}</ProjectGuid>
+    <Keyword>Xbox360Proj</Keyword>
+    <ProjectName>NiNJA_WAW</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>2010-01</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Devkit|Xbox 360'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Devkit|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutputFile>$(OutDir)XBLStealth.dll</OutputFile>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <ImageXexOutput>$(OutDir)WAW.ENGINE.xex</ImageXexOutput>
+    <RemoteRoot>devkit:\XBLS</RemoteRoot>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutputFile>$(OutDir)Mw2Hax.xex</OutputFile>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <ImageXexOutput>$(OutDir)WAW.ENGINE.xex</ImageXexOutput>
+    <RemoteRoot>HDD:\</RemoteRoot>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <ImageXexOutput>$(OutDir)WAW.ENGINE.xex</ImageXexOutput>
+    <RemoteRoot>HDD:\DEVKIT\NiNJAEngine\</RemoteRoot>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Devkit|Xbox 360'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <ImageXexOutput>$(OutDir)WAW.ENGINE.xex</ImageXexOutput>
+    <RemoteRoot>HDD:\DEVKIT\NiNJAEngine\</RemoteRoot>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Full</Optimization>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;_XBOX;_DEVKIT</PreprocessorDefinitions>
+      <CallAttributedProfiling>Disabled</CallAttributedProfiling>
+      <AdditionalIncludeDirectories>..\xkelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>xapilibd.lib;d3d9d.lib;d3dx9d.lib;xgraphicsd.lib;xboxkrnl.lib;xnetd.lib;xaudiod2.lib;xactd3.lib;x3daudiod.lib;xmcored.lib;vcompd.lib;xbdm.lib;xhttp.lib</AdditionalDependencies>
+      <AdditionalOptions>/dll /ALIGN:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>XBLS.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\xkelib;</AdditionalLibraryDirectories>
+      <EntryPointSymbol>realEntryPoint</EntryPointSymbol>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>XBLS.xml</ConfigurationFile>
+      <RequireFullExperience>false</RequireFullExperience>
+    </ImageXex>
+    <Deploy />
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)xextool.exe" -r a -m d "$(ImageXexOutput)"</Command>
+    </PostBuildEvent>
+    <Deploy />
+    <Deploy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+    </Deploy>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MinSpace</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;_XBOX</PreprocessorDefinitions>
+      <CallAttributedProfiling>Disabled</CallAttributedProfiling>
+      <AdditionalIncludeDirectories>..\xkelib;XOSC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>xapilibd.lib;d3d9d.lib;d3dx9d.lib;xgraphicsd.lib;xboxkrnl.lib;xnetd.lib;xaudiod2.lib;xactd3.lib;x3daudiod.lib;xmcored.lib;xbdm.lib;vcompd.lib;xhttp.lib</AdditionalDependencies>
+      <AdditionalOptions>/dll /ALIGN:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\xkelib;..\xkelib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>realEntryPoint</EntryPointSymbol>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>plugin.xml</ConfigurationFile>
+      <RequireFullExperience>false</RequireFullExperience>
+    </ImageXex>
+    <Deploy />
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)xextool.exe" -r a -m r "$(ImageXexOutput)"</Command>
+    </PostBuildEvent>
+    <Deploy>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+    </Deploy>
+    <Deploy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Deploy>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>NDEBUG;_XBOX;LTCG</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\xkelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <CallAttributedProfiling>Disabled</CallAttributedProfiling>
+      <TrapIntegerDividesOptimization>false</TrapIntegerDividesOptimization>
+      <PreschedulingOptimization>false</PreschedulingOptimization>
+      <InlineAssemblyOptimization>false</InlineAssemblyOptimization>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <RegisterReservation>false</RegisterReservation>
+      <AnalyzeStalls>false</AnalyzeStalls>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <SetChecksum>true</SetChecksum>
+      <AdditionalDependencies>xapilib.lib;d3d9ltcg.lib;d3dx9.lib;xgraphics.lib;xboxkrnl.lib;xnet.lib;xaudio2.lib;xact3ltcg.lib;x3daudioltcg.lib;xmcoreltcg.lib;vcomp.lib;xhttp.lib</AdditionalDependencies>
+      <AdditionalOptions>/dll /ALIGN:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\xkelib;</AdditionalLibraryDirectories>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <FixedBaseAddress>
+      </FixedBaseAddress>
+      <StackCommitSize>262144</StackCommitSize>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>plugin.xml</ConfigurationFile>
+      <RequireFullExperience>false</RequireFullExperience>
+    </ImageXex>
+    <Deploy>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Deploy>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)StringEncryptor.exe" "$(ImageXexOutput)"
+"$(ProjectDir)xextool.exe" -e u -c b -o "$(ImageXexOutput)"_base "$(ImageXexOutput)"
+"$(ProjectDir)XexSectionDump.exe" "$(ImageXexOutput)"_base "$(OutDir)xbls_txt.bin"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Devkit|Xbox 360'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;_XBOX;LTCG;_DEVKIT</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\xkelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <RegisterReservation>false</RegisterReservation>
+      <AnalyzeStalls>false</AnalyzeStalls>
+      <TrapIntegerDividesOptimization>false</TrapIntegerDividesOptimization>
+      <PreschedulingOptimization>false</PreschedulingOptimization>
+      <InlineAssemblyOptimization>false</InlineAssemblyOptimization>
+      <CallAttributedProfiling>Disabled</CallAttributedProfiling>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <SetChecksum>true</SetChecksum>
+      <AdditionalDependencies>xapilib.lib;d3d9ltcg.lib;d3dx9.lib;xboxkrnl.lib;xnet.lib;xaudio2.lib;xact3ltcg.lib;x3daudioltcg.lib;xmcoreltcg.lib;vcomp.lib;xhttp.lib</AdditionalDependencies>
+      <AdditionalOptions>/dll /ALIGN:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>plugin.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\xkelib;</AdditionalLibraryDirectories>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>plugin.xml</ConfigurationFile>
+      <RequireFullExperience>false</RequireFullExperience>
+    </ImageXex>
+    <Deploy>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </Deploy>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)xextool.exe" -e u -c b -o "$(ImageXexOutput)"_base "$(ImageXexOutput)"
+"$(ProjectDir)XexSectionDump.exe" "$(ImageXexOutput)"_base "$(OutDir)xbls_txt_devkit.bin"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
